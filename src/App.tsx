@@ -1,14 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Loader from './components/Loader';
 import Map from './components/Map';
-import { useFetchAPI } from './hooks/useFetchAPI';
-
-interface IEventData {
-   description: string;
-   events: [];
-   link: string;
-   title: string;
-}
+import { useFetchAPI } from './shared/hooks/useFetchAPI';
 
 const App = () => {
 

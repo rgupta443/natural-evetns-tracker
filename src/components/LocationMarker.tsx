@@ -13,7 +13,7 @@ const LocationMarker: React.FC<Props> = ({ lat, lng, onClick }) => {
         <div className="location-marker" onClick={onClick}>
             <Icon icon={locationIcon} className="location-icon" />
         </div>
-)
+    )
 }
 
 export default LocationMarker;
