@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import GoogleMapReact, { Coords } from 'google-map-react';
 import LocationMarker from './LocationMarker';
 import LocationInfo from './LocationInfo';
-import DropDown from '../shared/hooks/components/dropDown/DropDown';
+import DropDown from '../shared/components/dropDown/DropDown';
 
 interface Props {
    center?: Coords;
